@@ -7,16 +7,7 @@
   "author": "CandyCrystal",
   "variants": {
     "Standard": {
-      "display_name": "Standard Map Tracker - Broadcast (F2) Vertical"
-    },
-    "Standard_h": {
-      "display_name": "Standard Map Tracker - Broadcast (F2) Horizontal"
-    },
-    "items_only": {
-      "display_name": "Standard Items Tracker - Vertical"
-    },
-    "items_only_h": {
-      "display_name": "Standard Items Tracker - Horizontal"
+      "display_name": "Map Tracker"
     }
   }
 }
