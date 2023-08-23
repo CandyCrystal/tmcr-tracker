@@ -628,7 +628,7 @@
           "content": [
             {
               "type": "group",
-              "header": "Inventory",
+              "header": "Items",
 							"header_content":{
 							  "type": "button_popup",
 							  "style": "settings",

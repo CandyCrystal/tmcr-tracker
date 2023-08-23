@@ -393,8 +393,8 @@ function FusionsRedNumber(code)
 		return function_data_fusion[code]
 	end
 	if fusionredcombined:getActive() then
-		local count_fuzer=function_Cached("FusionsRedWNumber")+function_Cached("FusionsRedVNumber")+function_Cached("FusionsRedENumber")
-		if count_fuzer < redW:getActive() then
+		local count_fuser=function_Cached("FusionsRedWNumber")+function_Cached("FusionsRedVNumber")+function_Cached("FusionsRedENumber")
+		if count_fuser < redW:getActive() then
 				function_data_fusion[code]=1
 				return 1
 		else
@@ -424,8 +424,8 @@ function FusionsBlueNumber(code)
 	end
 	local info_fuze=0
 	if fusionbluecombined:getActive() then
-		local count_fuzer=function_Cached("FusionsBlueLNumber")+function_Cached("FusionsBlueSNumber")
-		if count_fuzer < blueL:getActive() then
+		local count_fuser=function_Cached("FusionsBlueLNumber")+function_Cached("FusionsBlueSNumber")
+		if count_fuser < blueL:getActive() then
 				function_data_fusion[code]=1
 				return 1
 		else
@@ -456,9 +456,9 @@ function FusionsBlueNumber(code)
 		count_fusion4=math.floor(count_fusion2/2)
 		count_fusion=count_fusion3-count_fusion4
 		if ( count_fusion == 0 ) then
-			info_fuzer=blueL:getActive()-count_fusion3
+			info_fuser=blueL:getActive()-count_fusion3
 		else
-			info_fuzer=blueS:getActive()-count_fusion4
+			info_fuser=blueS:getActive()-count_fusion4
 		end
 		if function_Cached("FusionsBlueLNumber")<blueL:getActive() and code=="blueL" then
 				function_data_fusion[code]=1
@@ -466,7 +466,7 @@ function FusionsBlueNumber(code)
 		elseif function_Cached("FusionsBlueSNumber")<blueS:getActive() and code=="blueS" then
 				function_data_fusion[code]=1
 				return 1
-		elseif function_Cached("FusionsBlueWallNumber")<info_fuzer and code=="blueWall" then
+		elseif function_Cached("FusionsBlueWallNumber")<info_fuser and code=="blueWall" then
 				function_data_fusion[code]=1
 				return 1
 		else
@@ -481,8 +481,8 @@ function FusionsGreenNumber(code)
 		return function_data_fusion[code]
 	end
 	if fusiongreencombined:getActive() then
-		local count_fuzer=function_Cached("FusionsGreenCNumber")+function_Cached("FusionsGreenGNumber")+function_Cached("FusionsGreenPNumber")
-		if count_fuzer < greenC:getActive() then
+		local count_fuser=function_Cached("FusionsGreenCNumber")+function_Cached("FusionsGreenGNumber")+function_Cached("FusionsGreenPNumber")
+		if count_fuser < greenC:getActive() then
 				function_data_fusion[code]=1
 				return 1
 		else
